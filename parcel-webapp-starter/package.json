@@ -1,0 +1,32 @@
+{
+  "name": "parcel-webapp-starter",
+  "version": "1.0.0",
+  "description": "Parcel 2 Webapp Starter",
+  "author": "Rafał Borowiec <https://blog.codeleak.pl>",
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "starter"
+  ],
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "lint": "eslint src/ --ext .js",
+    "lint:fix": "eslint src/ --ext .js --fix"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "@testing-library/dom": "^8.10.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "eslint": "^8.2.0",
+    "eslint-plugin-jest": "^25.2.4",
+    "jest": "^27.3.1",
+    "jest-extended": "^1.1.0",
+    "parcel": "^2.0.0",
+    "prettier": "^2.4.1"
+  }
+}

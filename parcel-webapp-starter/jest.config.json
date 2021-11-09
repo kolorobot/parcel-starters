@@ -1,0 +1,9 @@
+{
+  "testEnvironment": "jsdom",
+  "setupFilesAfterEnv": [
+    "jest-extended/all",
+    "@testing-library/jest-dom",
+    "<rootDir>/src/setupTests.js"
+  ],
+  "verbose": true
+}

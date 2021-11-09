@@ -1,0 +1,14 @@
+{
+  "baseUrl": "src",
+  "allowJs": false,
+  "forceConsistentCasingInFileNames": true,
+  "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts"
+  ]
+}

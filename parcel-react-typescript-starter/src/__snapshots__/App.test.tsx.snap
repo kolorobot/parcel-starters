@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App It waits for the button to be enabled and clicks it 1`] = `
+<div>
+  <button
+    data-testid="count-button"
+  >
+    2
+  </button>
+</div>
+`;
+
+exports[`App waits for the button to be enabled and clicks it 1`] = `
+<div>
+  <button
+    data-testid="count-button"
+  >
+    2
+  </button>
+</div>
+`;
+
+exports[`App waits for the button to be enabled to click it 1`] = `
+<div>
+  <button
+    data-testid="count-button"
+  >
+    2
+  </button>
+</div>
+`;

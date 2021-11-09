@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App testing It prints the provided text 1`] = `
+<div>
+  
+    
+  <label
+    for="text"
+  >
+    Enter some text
+  </label>
+  
+    
+  <input
+    id="text"
+  />
+  
+    
+  <button>
+    Print
+  </button>
+  <div>
+    <div
+      data-testid="printed-text"
+    >
+      Lorem ipsum
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App testing prints the provided text 1`] = `
+<div>
+  
+    
+  <label
+    for="text"
+  >
+    Enter some text
+  </label>
+  
+    
+  <input
+    id="text"
+  />
+  
+    
+  <button>
+    Print
+  </button>
+  <div>
+    <div
+      data-testid="printed-text"
+    >
+      Lorem ipsum
+    </div>
+  </div>
+</div>
+`;
